@@ -17,7 +17,7 @@ const Search = () => {
   };
 
   return (
-    <div className="bg-gray-100 p-2 rounded-full flex items-center gap-2">
+    <div className="bg-gray-100 p-2 rounded-full flex items-center gap-3 shadow-sm transition-all hover:shadow-md focus-within:shadow-md w-full md:w-72">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
@@ -25,14 +25,16 @@ const Search = () => {
         height="20"
         fill="none"
         stroke="gray"
+        strokeWidth="2"
+        className="transition-colors duration-200 group-hover:stroke-blue-500"
       >
         <circle cx="10.5" cy="10.5" r="7.5" />
         <line x1="16.5" y1="16.5" x2="22" y2="22" />
       </svg>
       <input
         type="text"
-        placeholder="search a post..."
-        className="bg-transparent"
+        placeholder="Search a post..."
+        className="bg-transparent outline-none text-sm w-full placeholder-gray-500 focus:placeholder-gray-400"
         onKeyDown={handleKeyPress}
       />
     </div>
@@ -40,3 +42,4 @@ const Search = () => {
 };
 
 export default Search;
+
