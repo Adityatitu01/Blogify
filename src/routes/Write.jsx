@@ -23,7 +23,7 @@ const Write = () => {
         <button className="w-max p-2 shadow-md rounded-xl text-sm text-gray-500 bg-white" type="button">Add a cover image</button>
         <input className='text-4xl font-semibold bg-transparent outline-none' type="text" placeholder="My Awesome Story" />
         <div className='flex items-center gap-4'>
-          <label className='text-sm' htmlFor="cat">Choose a Category:</label>
+          <label className='text-sm bg-emerald-100 rounded-md ' htmlFor="cat">Choose a Category:</label>
           <select name="cat" id="cat" className='p-2 rounded-xl bg-white shadow-md' >
             <option value="general">General</option>
             <option value="web-design">Web Design</option>

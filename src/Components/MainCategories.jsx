@@ -3,9 +3,9 @@ import Search from "./Search";
 
 const MainCategories = () => {
   return (
-    <div className="flex flex-col md:flex-row bg-white rounded-2xl xl:rounded-full p-3 shadow-lg items-center justify-between gap-3 md:gap-6 w-full">
+    <div className="flex flex-col md:flex-row bg-white rounded-2xl xl:rounded-full p-3 shadow-lg items-center justify-between  md:gap-2 w-full">
       {/* links */}
-      <div className="flex flex-wrap items-center justify-center md:justify-between gap-2 w-full md:w-auto">
+      <div className="flex flex-wrap items-center justify-center md:justify-between gap-6 w-full md:w-auto">
         <Link
           to="/posts"
           className="bg-blue-800 text-white rounded-full px-3 py-1.5 text-sm"
